@@ -19,12 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 //import cn.hutool.json.JSONObject;
 
 @RestController
-@RequestMapping("/download")
+//@RequestMapping("/download")
 public class FileDownloadController {
 
                 private static final String EXTERNAL_FILE_PATH = "C:/";
 
-                @RequestMapping(value = {"/test"}, method=RequestMethod.GET)
+                @RequestMapping(value = {"/"}, method=RequestMethod.GET)
                 public String welcome() {
                 	return "Welcome MJ!!!";
                 }
